@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+data/monitoring.db
+dashboard/app copy.py
+data/raw/duplicate_test.csv
+data/raw/invalid_test.csv
+data/processed/invalid_test/

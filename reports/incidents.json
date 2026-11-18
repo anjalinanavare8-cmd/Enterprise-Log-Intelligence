@@ -1,0 +1,67 @@
+[
+    {
+        "incident_id": "INC-0001",
+        "service": "Database",
+        "severity": "HIGH",
+        "detection_method": "Rule-based",
+        "reasons": [
+            "High error rate",
+            "High average response time"
+        ],
+        "status": "Investigating",
+        "investigation_notes": [
+            "Checking database connection failures"
+        ],
+        "created_at": "2026-11-16T17:24:06.475439+00:00",
+        "updated_at": "2026-11-16T17:24:31.728920+00:00",
+        "audit_history": [
+            {
+                "action": "Incident created",
+                "timestamp": "2026-11-16T17:24:06.477230+00:00"
+            },
+            {
+                "action": "Status changed to Investigating",
+                "timestamp": "2026-11-16T17:24:31.728920+00:00"
+            }
+        ]
+    },
+    {
+        "incident_id": "INC-0002",
+        "service": "Payment",
+        "severity": "CRITICAL",
+        "detection_method": "Rule-based",
+        "reasons": [
+            "High error rate",
+            "High average response time"
+        ],
+        "status": "Open",
+        "investigation_notes": [],
+        "created_at": "2026-11-16T17:24:06.477277+00:00",
+        "updated_at": "2026-11-16T17:24:06.477285+00:00",
+        "audit_history": [
+            {
+                "action": "Incident created",
+                "timestamp": "2026-11-16T17:24:06.477292+00:00"
+            }
+        ]
+    },
+    {
+        "incident_id": "INC-0003",
+        "service": "Payment",
+        "severity": "MEDIUM",
+        "detection_method": "Isolation Forest",
+        "reasons": [
+            "Unusual service behavior detected by ML"
+        ],
+        "status": "Open",
+        "investigation_notes": [],
+        "created_at": "2026-11-16T17:24:06.477310+00:00",
+        "updated_at": "2026-11-16T17:24:06.477316+00:00",
+        "audit_history": [
+            {
+                "action": "Incident created",
+                "timestamp": "2026-11-16T17:24:06.477321+00:00"
+            }
+        ]
+    }
+]

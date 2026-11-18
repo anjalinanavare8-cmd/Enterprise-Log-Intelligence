@@ -1,0 +1,11 @@
+﻿timestamp,service,level,error_code,message,response_time
+2026-11-16 09:00:00,Auth,INFO,200,User login successful,120
+2026-11-16 09:01:00,Payment,ERROR,E501,Payment gateway timeout,3500
+2026-11-16 09:02:00,Auth,WARNING,W101,Multiple login attempts,450
+2026-11-16 09:03:00,Database,ERROR,E502,Database connection failed,5000
+2026-11-16 09:04:00,Auth,INFO,200,User logout successful,100
+2026-11-16 09:05:00,Payment,ERROR,E501,Payment gateway timeout,3600
+2026-11-16 09:06:00,Database,INFO,200,Database connection restored,180
+2026-11-16 09:07:00,API,WARNING,W201,High response time,2500
+2026-11-16 09:08:00,API,INFO,200,Request completed,150
+2026-11-16 09:09:00,Payment,ERROR,E503,Transaction processing failed,4200
